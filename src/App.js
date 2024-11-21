@@ -6,7 +6,7 @@ const App = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [error, setError] = useState("");
 
-  const BASE_BACKEND_URL = "https://your-backend-url.com/bfhl";
+  const BASE_BACKEND_URL = "https://back-production-e40e.up.railway.app/bfhl";
 
   const handleSubmit = async () => {
     try {
